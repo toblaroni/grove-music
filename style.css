@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  
+}
+
+ html, body { 
+  width: 100%;
+  height: 100%;
+  background-color: black;
+} 
+
+canvas {
+  cursor: crosshair;
+}
+
+ .icon img{
+    -webkit-filter: invert(1);
+    filter: invert(1); 
+}
+
+#icons-container {
+  position: absolute;
+  display: flex;
+}
+
+@media screen and (min-width: 1024px){
+  #icons-container {
+    height: 30%;
+    padding-top: 2%;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 100%;
+    left: 100%;
+    transform: translate(-150%, -105%);
+  }
+
+ .icon img{
+    height: 5vh;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  #icons-container{
+    width: 100%;
+    padding-bottom: 2%;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 100%;
+    transform: translate(0%, -130%);
+  }
+
+ .icon img{
+    height: 3vh;
+  }
+}
+
