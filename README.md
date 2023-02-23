@@ -1,5 +1,5 @@
 ## GROVE SOUNDS
 <p align="center">
-  <em>Website for grove<\em> <br>
+  <strong>Website for grove </strong><br>
   Check out his [soundcloud](https://soundcloud.com/grove02)
 </p>
